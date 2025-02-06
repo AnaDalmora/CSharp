@@ -263,7 +263,7 @@ public class estruturaRepeticao
         double potencia = 0;
         for (int i = 1; i <= nPotencia; i++)
         {
-            Console.WriteLine($"{nPotencia}^{i} = {Math.Pow(nPotencia, i)}");
+            Console.WriteLine($"{2}^{i} = {Math.Pow(2, i)}");
         }
 
     }
