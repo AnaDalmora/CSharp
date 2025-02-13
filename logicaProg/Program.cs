@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Runtime.Intrinsics.Arm;
 using System.Runtime.Intrinsics.X86;
 using System.Security.Cryptography;
@@ -16,27 +17,23 @@ class Funcoes
         exercicio05();
         exercicio06();
         exercicio07();
-        exercicio08();*/
+        exercicio08();
         exercicio09();
         //exercicio10(); //nfalta fazer
-        exercicio11(); //não esta funcionando
-
-        /*
-        13. Crie uma função que receba uma string e retorne outra string com todas as letras maiúsculas convertidas para minúsculas e vice-versa.
-        14. Escreva uma função que calcule o valor da série de Fibonacci para um dado número de termos.
-        15. Desenvolva uma função que determine se um número é positivo, negativo ou zero.
-        16: Calculadora Simples - Crie uma função chamada Calculadora que recebe dois números e um operador (+, -, *, /) como parâmetros e retorna o resultado da operação.
-        17: Verificação de Número Primo - Escreva uma função chamada Primo que recebe um número inteiro como parâmetro e retorna true se o número for primo e false caso contrário.
-        18: Sequência de Fibonacci - Implemente uma função chamada Fibonacci que recebe um número inteiro n como parâmetro e retorna uma lista contendo os primeiros n números da sequência de Fibonacci.
-        19: Contagem de Dígitos - Crie uma função chamada ContarDigitos que recebe um número inteiro como parâmetro e retorna o número de dígitos no número.
-        20: Média de Números - Desenvolva uma função chamada CalcularMedia que recebe 3 números e retorna a média dos itens.
-        */
+        exercicio11();
+        exercicio12();
+        exercicio13();
+        exercicio14();
+        exercicio15();
+        exercicio16();
+        exercicio17();
+        exercicio18();*/
+        exercicio19();
+        exercicio20();
+  
     }
     static void exercicio01()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 01 *");
-        Console.WriteLine("\t\t****************\n");
 
         //1. Crie uma função que recebe dois números inteiros como parâmetros e retorna a sua soma.
         double a = AskNumberDouble("Digite um número");
@@ -46,18 +43,12 @@ class Funcoes
     }
     static void exercicio02()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 02 *");
-        Console.WriteLine("\t\t****************\n");
         //2. Escreva uma função que calcule o fatorial de um número inteiro passado como argumento.
         int n = AskNumberInt("Digite um número");
         Console.WriteLine($"A fatorial do número {n} é {Fatorial(n)}");
     }
     static void exercicio03()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 03 *");
-        Console.WriteLine("\t\t****************\n");
         //3. Desenvolva uma função que verifique se um número é primo ou não.
         int n = AskNumberInt("Digite um número");
 
@@ -72,9 +63,6 @@ class Funcoes
     }
     static void exercicio04()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 04 *");
-        Console.WriteLine("\t\t****************\n");
         //4. Implemente uma função que receba uma lista de inteiros e retorne o maior valor presente na lista.
 
         List<int> numeros = new List<int>();
@@ -88,18 +76,13 @@ class Funcoes
     }
     static void exercicio05()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 05 *");
-        Console.WriteLine("\t\t****************\n");
+
         //5. Crie uma função que inverta uma string passada como parâmetro (sem usar funções de inversão embutidas).
         string str = Ask("Digite uma palavra: ");
         Console.WriteLine($"A palavra {str} ao contrário é {InverterString(str)}");
     }
     static void exercicio06()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 06 *");
-        Console.WriteLine("\t\t****************\n");
 
         //6. Escreva uma função que calcule a média de uma lista de números reais.
 
@@ -114,9 +97,7 @@ class Funcoes
     }
     static void exercicio07()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 07 *");
-        Console.WriteLine("\t\t****************\n");
+
         //7.Desenvolva uma função que verifique se uma string é um palíndromo(ela lê o mesmo de trás para frente) ou não.
         string str = Ask("Digite uma palavra: ");
 
@@ -131,23 +112,19 @@ class Funcoes
     }
     static void exercicio08()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 08 *");
-        Console.WriteLine("\t\t****************\n");
+
         //8.Implemente uma função que receba um valor em graus Celsius e retorne o equivalente em Fahrenheit.
         double grausC = AskNumberDouble("Insira o grau celsius para converter: ");
         Console.WriteLine($"{grausC}°C é {CtoFahrenheit(grausC)}° fahrenheit");
     }
     static void exercicio09()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 09 *");
-        Console.WriteLine("\t\t****************\n");
+
 
         //9. Crie uma função que receba um array de strings e retorne a quantidade de strings que possuem mais de 5 caracteres.
-        string[] palavras = ["ana", "julia", "estudando", "csharp"];
+        string[] palavras = {"ana", "julia", "estudando", "csharp"};
 
-        for (int i = 0; i <palavras.Length; i++)
+        for (int i = 0; i < palavras.Length; i++)
         {
             if (ContaCarac(palavras[i]) >= 5)
             {
@@ -158,9 +135,7 @@ class Funcoes
     }
     static void exercicio10()
     {
-        Console.WriteLine("\n\t\t****************");
-        Console.WriteLine("\t\t* Exercício 10 *");
-        Console.WriteLine("\t\t****************\n");
+
 
         //10.Escreva uma função que calcule o máximo divisor comum(MDC) entre dois números inteiros.
         int a = AskNumberInt("Insira um número inteiro");
@@ -178,14 +153,169 @@ class Funcoes
             n = AskNumberInt("Insira um número (-1 para sair)");
         }
 
-        Console.WriteLine($"Somente os numeros {EhPar(numeros)} são pares");
+        Console.Write($"Somente os numeros");
+        foreach (int i in EhPar(numeros))
+        {
+            Console.Write($" {i} ");
+
+        }
+        Console.WriteLine("são pares");
+
     }
     static void exercicio12()
     {
+
         //12.Implemente uma função que conte quantas vezes um determinado elemento aparece em uma lista.
+        List<int> numeros = new List<int>();
+        int n = AskNumberInt("Insira um número (-1 para sair)");
+        while (n != -1)
+        {
+            numeros.Add(n);
+            n = AskNumberInt("Insira um número (-1 para sair)");
+        }
+        int nDesejavelVer = AskNumberInt("Qual numero você deseja saber a quantidade de vezes aparece em uma lista?");
+        Console.WriteLine($"O numero {nDesejavelVer} aparece {CountElementos(numeros, nDesejavelVer)} vezes");
 
     }
+    static void exercicio13()
+    {
 
+        //13. Crie uma função que receba uma string e retorne outra string com todas as letras maiúsculas convertidas para minúsculas e vice-versa.
+        string str = Ask("Insira uma string em maiuscula ou minuscula");
+        Console.WriteLine(ConverterString(str));
+    }
+    static void exercicio14()
+    {
+
+        //14.Escreva uma função que calcule o valor da série de Fibonacci para um dado número de termos.
+        int termo = AskNumberInt("Insira um termo para calcular o fibonacci");
+        Console.WriteLine($"O Fibonacci do termo {termo} é {Fibonacci(termo)}");
+
+    }
+    static void exercicio15()
+    {
+
+        //15. Desenvolva uma função que determine se um número é positivo, negativo ou zero.
+        int numero = AskNumberInt("Insira um numero inteiro");
+        Console.WriteLine($"O numero inserido é {VerificaNumero(numero)}");
+    }
+    static void exercicio16()
+    {
+
+        //16: Calculadora Simples - Crie uma função chamada Calculadora que recebe dois números e um operador (+, -, *, /) como parâmetros e retorna o resultado da operação.
+        double n1 = AskNumberDouble("Insira um numero");
+        double n2 = AskNumberDouble("Insira um numero");
+        int operador = AskNumberInt("Qual operação deseja fazer?\n 1 - Soma\n 2 - Subtração\n 3 - Multiplicação\n 4 - Divisão");
+        Console.WriteLine($"Resultado: {Calculadora(n1, n2, operador)}");
+    }
+    static void exercicio17()
+    {
+
+        //17: Verificação de Número Primo - Escreva uma função chamada Primo que recebe um número inteiro como parâmetro e retorna true se o número for primo e false caso contrário.
+        exercicio03();
+    }
+    static void exercicio18()
+    {
+        exercicio14();
+    }
+    static void exercicio19()
+    {
+        //19: Contagem de Dígitos - Crie uma função chamada ContarDigitos que recebe um número inteiro como parâmetro e retorna o número de dígitos no número.
+
+        string n = Ask("Insira um numero inteiro");
+        Console.WriteLine($"O numero {n} possui {ContarDigitos(n)} caracteres");
+    }
+
+    static void exercicio20()
+    {
+        //20: Média de Números - Desenvolva uma função chamada CalcularMedia que recebe 3 números e retorna a média dos itens.
+
+        double n1 = AskNumberDouble("Insira um numero");
+        double n2 = AskNumberDouble("Insira um numero");
+        double n3 = AskNumberDouble("Insira um numero");
+        Console.WriteLine($"A média dos numeros é {CalcularMedia(n1, n2, n3)}");
+    }
+    static double CalcularMedia(double n1, double n2, double n3)
+    {
+        return (n1 + n2 + n3) / 3;
+    }
+    static int ContarDigitos(string n)
+    {
+        return n.Length;
+    }
+    static double Calculadora(double n1, double n2, int operador)
+    {
+        switch (operador)
+        {
+            case 1:
+                return n1 + n2;
+                break;
+            case 2:
+                return n1 - n2;
+                break;
+            case 3:
+                return n1 * n2;
+                break;
+            case 4:
+                return n1 / n2;
+            default:
+                return 0;
+                break;
+        }
+    }
+    static string VerificaNumero(int numero)
+    {
+        if (numero == 0)
+        {
+            return "Zero";
+        }
+        else if (numero > 0)
+        {
+            return "Positivo";
+        }
+        else
+        {
+            return "Negativo";
+        }
+    }
+    static int Fibonacci(int termo)
+    {
+        int termoAntecessor = 0;
+        int termoAtual = 1;
+        int fibonacci=0;
+        for (int i = 3; i <= termo; i++)
+        {
+            fibonacci = termoAtual + termoAntecessor;
+            termoAntecessor = termoAtual;
+            termoAtual = fibonacci;
+        }
+        return fibonacci;
+    }
+    static string ConverterString(string str)
+    {
+        string minuscula = str.ToLower();
+        if (str == minuscula)
+        {
+            return str.ToUpper();
+        }
+        else
+        {
+            return minuscula;
+        }
+
+    }
+    static int CountElementos(List<int> lista, int n)
+    {
+        int vezesApareceu = 0;
+        for (int i = 0; i < lista.Count; i++)
+        {
+            if (lista[i] == n)
+            {
+                vezesApareceu++;
+            }
+        }
+        return vezesApareceu;
+    }
     static double soma(double x, double y)
     {
         return x + y;
