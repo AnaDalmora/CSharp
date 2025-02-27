@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anajl\\CSharp\\logicaProg\\Recursividade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF218A0-AF99-4363-A4AD-5595E0D6B9B4}|Recursividade.csproj|c:\\users\\anajl\\csharp\\logicaprog\\recursividade\\funcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF218A0-AF99-4363-A4AD-5595E0D6B9B4}|Recursividade.csproj|solutionrelative:funcoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF218A0-AF99-4363-A4AD-5595E0D6B9B4}|Recursividade.csproj|c:\\users\\anajl\\csharp\\logicaprog\\recursividade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF218A0-AF99-4363-A4AD-5595E0D6B9B4}|Recursividade.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "funcoes.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\logicaProg\\Recursividade\\funcoes.cs",
+              "RelativeDocumentMoniker": "funcoes.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\logicaProg\\Recursividade\\funcoes.cs",
+              "RelativeToolTip": "funcoes.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA1wC8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:31:08.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\logicaProg\\Recursividade\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\logicaProg\\Recursividade\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwDkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:29:25.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
