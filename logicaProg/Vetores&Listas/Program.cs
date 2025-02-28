@@ -23,12 +23,6 @@ namespace Vetores_Listas
             exercicio12();
         }
 
-        /* Vetores
-       
-       
-        7. Crie uma List de números inteiros contendo pelo menos 5 elementos. Remova o primeiro e o último elemento da lista e exiba os valores restantes.
-        */
-
         static void exercicio01()
         {
             try
