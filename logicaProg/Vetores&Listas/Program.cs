@@ -9,17 +9,17 @@ namespace Vetores_Listas
     {
         public static void Main(string[] args)
         {
-            //exercicio01();
-            //exercicio02();
-            //exercicio03();
-            //exercicio04();
-            //exercicio05();
-            //exercicio06();
-            //exercicio07();
-            //exercicio08();
-            //exercicio09();
-            //exercicio10();
-            //exercicio11();
+            exercicio01();
+            exercicio02();
+            exercicio03();
+            exercicio04();
+            exercicio05();
+            exercicio06();
+            exercicio07();
+            exercicio08();
+            exercicio09();
+            exercicio10();
+            exercicio11();
             exercicio12();
         }
 
