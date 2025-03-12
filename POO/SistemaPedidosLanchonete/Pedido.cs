@@ -10,28 +10,28 @@ namespace SistemaPedidosLanchonete
     public class Pedido
     {
         public int NumeroPedido;
-        public List<Produto> itens = new List<Produto> ();
+        public List<Produto> itens = new List<Produto>();
         
+        public void AdicionarItens(int item, List<Produto> produtos)
+        {
+            itens.Add(produtos[item - 1]);
+        }
 
-        public void ExibirPedido()
+        public void ExibirItens()
         {
-            Console.WriteLine($"\nPedido #{NumeroPedido}");
-            Console.WriteLine("Itens:");
-            foreach(var item in itens)
+            for (int i =0; i<itens.Count();i++)
             {
-                Console.WriteLine($"- {item.NomeProduto} - R$ {item.Preco}");
+                Console.WriteLine($"{i+1} - {itens[i].NomeProduto} R$ {itens[i].Preco}");
             }
-            Console.WriteLine($"Total: R$ {CalcularValorTotalPedido()}");
         }
-        public float CalcularValorTotalPedido()
+        public float TotalPedido()
         {
-            float totalPedido = 0;
-            foreach(var item in itens)
+            float soma =0;
+            foreach(Produto p in itens)
             {
-                totalPedido += item.Preco;
+                soma += p.Preco;
             }
-            return totalPedido;
+            return soma;
         }
-        
     }
 }

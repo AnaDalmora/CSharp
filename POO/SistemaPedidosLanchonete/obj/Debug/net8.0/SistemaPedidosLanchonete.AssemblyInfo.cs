@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaPedidosLanchonete")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2247bf1f4af2e3ab99e50e61fcba220dd5c67955")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f15db650b5b6b9482ab557a7cc510844de83ff78")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaPedidosLanchonete")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaPedidosLanchonete")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

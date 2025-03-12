@@ -10,6 +10,8 @@ namespace SistemaPedidosLanchonete
     internal class Operacao
     {
         public List<Produto> produtos = new List<Produto> ();
+        public List<Pedido> pedidos = new List<Pedido>();
+
 
         public int ExibirMenu()
         {
@@ -26,9 +28,13 @@ namespace SistemaPedidosLanchonete
                     AdicionarProduto();
                     break;
                 case 2:
+                    CriarPedido();
                     break;
                 case 3:
                     ExibirCardapio(produtos);
+                    break;
+                case 4:
+                    ExibirPedidos();
                     break;
                 default:
                     Console.WriteLine("Opção inválida");
@@ -36,6 +42,32 @@ namespace SistemaPedidosLanchonete
             }
         }
 
+        public void CriarPedido()
+        {
+            Pedido pedido = new Pedido();
+            pedido.NumeroPedido = NPedido(pedidos);
+            pedidos.Add(pedido);
+            Cardapio(produtos);
+
+            while(true)
+            {
+                Console.WriteLine("Qual item deseja pedir ? (digite o numero do item ou 0 para sair)");
+                int item = int.Parse(Console.ReadLine());
+                if(item == 0) {break;}
+                pedido.AdicionarItens(item, produtos);
+            }
+            Console.Clear();
+        }
+        public void ExibirPedidos()
+        {
+            foreach(Pedido p in pedidos)
+            {
+                Console.WriteLine($"Pedido #{p.NumeroPedido}\n");
+                p.ExibirItens();
+                Console.WriteLine($"\nTotal: R$ {p.TotalPedido()}\n");
+            }
+            Retorno();
+        }
         public void AdicionarProduto()
         {
             string r;
@@ -45,6 +77,7 @@ namespace SistemaPedidosLanchonete
                 string nome;
                 float preco;
 
+                Console.Clear();
                 Console.WriteLine("Insira o nome do produto");
                 nome = Console.ReadLine();
                 Console.WriteLine("Insira o valor do produto");
@@ -59,16 +92,35 @@ namespace SistemaPedidosLanchonete
             Console.Clear();
 
         }
-        public void ExibirCardapio(List<Produto>produtos)
+        public void Cardapio(List<Produto> produtos)
         {
-            int r = 1;
             Console.WriteLine("***************************");
             Console.WriteLine("**** Itens Disponíveis ****");
             Console.WriteLine("***************************\n");
-            for(int i = 0; i < produtos.Count();i++)
+            for (int i = 0; i < produtos.Count(); i++)
             {
                 Console.WriteLine($"{i + 1} - {produtos[i].NomeProduto} R$ {produtos[i].Preco}");
             }
+        }
+        public void ExibirCardapio(List<Produto>produtos)
+        {
+            Cardapio(produtos);
+            Retorno();
+        }
+
+        static int NPedido(List<Pedido> pedidos)
+        {
+           int n = 0;
+           foreach(Pedido p in pedidos)
+            {
+               if(p.NumeroPedido > n) { n = p.NumeroPedido; }
+            }
+            return n +1;
+        }
+
+        static void Retorno()
+        {
+            int r = -1;
             while(r != 0)
             {
                 Console.WriteLine("0 para voltar");
@@ -77,6 +129,5 @@ namespace SistemaPedidosLanchonete
             Console.Clear();
         }
 
-        
     }
 }

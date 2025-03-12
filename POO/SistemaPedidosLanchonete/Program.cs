@@ -9,6 +9,7 @@
             do
             {
                 op = operacao.ExibirMenu();
+                Console.Clear();
                 operacao.ProcessamentoOperacao(op);
 
             }while(op != 0);

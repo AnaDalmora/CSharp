@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{014A5CAA-89D3-4AF1-89F0-6220061B6DC6}|SistemaPedidosLanchonete.csproj|solutionrelative:operacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{014A5CAA-89D3-4AF1-89F0-6220061B6DC6}|SistemaPedidosLanchonete.csproj|c:\\users\\anajl\\csharp\\poo\\sistemapedidoslanchonete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{014A5CAA-89D3-4AF1-89F0-6220061B6DC6}|SistemaPedidosLanchonete.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{014A5CAA-89D3-4AF1-89F0-6220061B6DC6}|SistemaPedidosLanchonete.csproj|c:\\users\\anajl\\csharp\\poo\\sistemapedidoslanchonete\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014A5CAA-89D3-4AF1-89F0-6220061B6DC6}|SistemaPedidosLanchonete.csproj|solutionrelative:pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014A5CAA-89D3-4AF1-89F0-6220061B6DC6}|SistemaPedidosLanchonete.csproj|c:\\users\\anajl\\csharp\\poo\\sistemapedidoslanchonete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014A5CAA-89D3-4AF1-89F0-6220061B6DC6}|SistemaPedidosLanchonete.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{014A5CAA-89D3-4AF1-89F0-6220061B6DC6}|SistemaPedidosLanchonete.csproj|c:\\users\\anajl\\csharp\\poo\\sistemapedidoslanchonete\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,22 +34,22 @@
               "Title": "Operacao.cs",
               "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaPedidosLanchonete\\Operacao.cs",
               "RelativeDocumentMoniker": "Operacao.cs",
-              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaPedidosLanchonete\\Operacao.cs",
-              "RelativeToolTip": "Operacao.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAApwBEAAAAxAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaPedidosLanchonete\\Operacao.cs*",
+              "RelativeToolTip": "Operacao.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T17:57:35.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaPedidosLanchonete\\Pedido.cs",
               "RelativeDocumentMoniker": "Pedido.cs",
               "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaPedidosLanchonete\\Pedido.cs",
               "RelativeToolTip": "Pedido.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T13:31:03.355Z",
               "EditorCaption": ""
@@ -69,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaPedidosLanchonete\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaPedidosLanchonete\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T11:36:50.539Z",
               "EditorCaption": ""
