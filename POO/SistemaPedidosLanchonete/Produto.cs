@@ -6,5 +6,6 @@ namespace SistemaPedidosLanchonete
     {
         public string NomeProduto;
         public float Preco;
+        
     }
 }
