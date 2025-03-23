@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99FEC0AD-8604-4D9D-A927-7C9DF8E0F011}|SistemaBancario.csproj|c:\\users\\anajl\\csharp\\poo\\sistemabancario\\processamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FEC0AD-8604-4D9D-A927-7C9DF8E0F011}|SistemaBancario.csproj|solutionrelative:processamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99FEC0AD-8604-4D9D-A927-7C9DF8E0F011}|SistemaBancario.csproj|c:\\users\\anajl\\csharp\\poo\\sistemabancario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FEC0AD-8604-4D9D-A927-7C9DF8E0F011}|SistemaBancario.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99FEC0AD-8604-4D9D-A927-7C9DF8E0F011}|SistemaBancario.csproj|c:\\users\\anajl\\csharp\\poo\\sistemabancario\\contacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FEC0AD-8604-4D9D-A927-7C9DF8E0F011}|SistemaBancario.csproj|solutionrelative:contacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99FEC0AD-8604-4D9D-A927-7C9DF8E0F011}|SistemaBancario.csproj|c:\\users\\anajl\\csharp\\poo\\sistemabancario\\contapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FEC0AD-8604-4D9D-A927-7C9DF8E0F011}|SistemaBancario.csproj|solutionrelative:contapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Processamento.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\Processamento.cs",
+              "RelativeDocumentMoniker": "Processamento.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\Processamento.cs",
+              "RelativeToolTip": "Processamento.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwHAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T22:26:32.929Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T15:34:03.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contapp.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\Contapp.cs",
+              "RelativeDocumentMoniker": "Contapp.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\Contapp.cs",
+              "RelativeToolTip": "Contapp.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA8wC0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:10:11.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contacc.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\Contacc.cs",
+              "RelativeDocumentMoniker": "Contacc.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\Contacc.cs",
+              "RelativeToolTip": "Contacc.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA0wDIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:09:13.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
