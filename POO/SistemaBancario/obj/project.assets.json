@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\SistemaBancario.csproj",
+      "projectUniqueName": "C:\\Users\\anajl\\CSharp\\SistemaBancario\\SistemaBancario.csproj",
       "projectName": "SistemaBancario",
-      "projectPath": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\SistemaBancario.csproj",
+      "projectPath": "C:\\Users\\anajl\\CSharp\\SistemaBancario\\SistemaBancario.csproj",
       "packagesPath": "C:\\Users\\anajl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anajl\\CSharp\\POO\\SistemaBancario\\obj\\",
+      "outputPath": "C:\\Users\\anajl\\CSharp\\SistemaBancario\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

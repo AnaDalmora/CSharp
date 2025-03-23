@@ -8,9 +8,9 @@ namespace SistemaBancario
 {
     internal interface IContaBancaria
     {
-
         public void Sacar(double valor);
         public void Depositar(double valor);
-        public void ExibirSaldo(double valor);
+        public void ExibirSaldo();
+
     }
 }
