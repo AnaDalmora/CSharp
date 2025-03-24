@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|c:\\users\\anajl\\csharp\\poo\\sistemaveiculoslocadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|c:\\users\\anajl\\csharp\\poo\\sistemaveiculoslocadora\\caminhao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|solutionrelative:caminhao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|c:\\users\\anajl\\csharp\\poo\\sistemaveiculoslocadora\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|solutionrelative:moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|c:\\users\\anajl\\csharp\\poo\\sistemaveiculoslocadora\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|solutionrelative:carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|c:\\users\\anajl\\csharp\\poo\\sistemaveiculoslocadora\\veiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6069B15-0C3F-4E65-BA57-CF5073C445DB}|SistemaVeiculosLocadora.csproj|solutionrelative:veiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Caminhao.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Caminhao.cs",
+              "RelativeDocumentMoniker": "Caminhao.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Caminhao.cs*",
+              "RelativeToolTip": "Caminhao.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:45:38.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Carro.cs",
+              "RelativeDocumentMoniker": "Carro.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Carro.cs*",
+              "RelativeToolTip": "Carro.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:45:15.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Moto.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Moto.cs",
+              "RelativeDocumentMoniker": "Moto.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Moto.cs*",
+              "RelativeToolTip": "Moto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:45:05.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Veiculos.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Veiculos.cs",
+              "RelativeDocumentMoniker": "Veiculos.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Veiculos.cs*",
+              "RelativeToolTip": "Veiculos.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:40:44.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anajl\\CSharp\\POO\\SistemaVeiculosLocadora\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:37:37.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

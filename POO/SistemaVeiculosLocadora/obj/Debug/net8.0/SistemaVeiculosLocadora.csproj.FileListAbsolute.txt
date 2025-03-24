@@ -1,0 +1,15 @@
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\bin\Debug\net8.0\SistemaVeiculosLocadora.exe
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\bin\Debug\net8.0\SistemaVeiculosLocadora.deps.json
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\bin\Debug\net8.0\SistemaVeiculosLocadora.runtimeconfig.json
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\bin\Debug\net8.0\SistemaVeiculosLocadora.dll
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\bin\Debug\net8.0\SistemaVeiculosLocadora.pdb
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\SistemaVeiculosLocadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\SistemaVeiculosLocadora.AssemblyInfoInputs.cache
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\SistemaVeiculosLocadora.AssemblyInfo.cs
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\SistemaVeiculosLocadora.csproj.CoreCompileInputs.cache
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\SistemaVeiculosLocadora.sourcelink.json
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\SistemaVeiculosLocadora.dll
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\refint\SistemaVeiculosLocadora.dll
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\SistemaVeiculosLocadora.pdb
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\SistemaVeiculosLocadora.genruntimeconfig.cache
+C:\Users\anajl\CSharp\POO\SistemaVeiculosLocadora\obj\Debug\net8.0\ref\SistemaVeiculosLocadora.dll
