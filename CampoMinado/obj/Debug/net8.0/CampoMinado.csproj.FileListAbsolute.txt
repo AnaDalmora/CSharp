@@ -1,0 +1,15 @@
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\CampoMinado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\CampoMinado.AssemblyInfoInputs.cache
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\CampoMinado.AssemblyInfo.cs
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\CampoMinado.csproj.CoreCompileInputs.cache
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\CampoMinado.sourcelink.json
+C:\Users\anajl\CSharp\CampoMinado\bin\Debug\net8.0\CampoMinado.exe
+C:\Users\anajl\CSharp\CampoMinado\bin\Debug\net8.0\CampoMinado.deps.json
+C:\Users\anajl\CSharp\CampoMinado\bin\Debug\net8.0\CampoMinado.runtimeconfig.json
+C:\Users\anajl\CSharp\CampoMinado\bin\Debug\net8.0\CampoMinado.dll
+C:\Users\anajl\CSharp\CampoMinado\bin\Debug\net8.0\CampoMinado.pdb
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\CampoMinado.dll
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\refint\CampoMinado.dll
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\CampoMinado.pdb
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\CampoMinado.genruntimeconfig.cache
+C:\Users\anajl\CSharp\CampoMinado\obj\Debug\net8.0\ref\CampoMinado.dll
