@@ -1,45 +1,63 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CampoMinado
 {
     internal class Operacao
     {
-        int chances = 10;
+        private int chances = 10;
+        private Dictionary<string, string> campoUsuario = new Dictionary<string, string>();
+        private Dictionary<string, string> campoAberto = new Dictionary<string, string>();
 
-        public Dictionary<string, string> CampoUsuario = new Dictionary<string, string>(); //campo onde o usuário vai abrindo as minas
         public void IniciarJogo()
         {
             Campo campo = new Campo();
-            CampoUsuario = campo.GerarCampo();
-            List<string> chaves = new List<string>(CampoUsuario.Keys);
-            foreach (string chave in chaves)
-            {
-                CampoUsuario[chave] = "X";
-            }
             Grafico grafico = new Grafico();
+
+            campo.GerarCampoAberto();
+            campo.GerarCampoUsuario();
+
+            campoAberto = campo.ObterCampoAberto();
+            campoUsuario = campo.ObterCampoUsuario();
 
             while (chances > 0)
             {
-                grafico.Exibicao(CampoUsuario);
-                string abrir = CampoAbrir().ToLower();
-                Dictionary<string, string> c = campo.CampoAbertoo();
-                CampoUsuario[abrir] = c.GetValueOrDefault(abrir);
-                if(c.GetValueOrDefault(abrir) == "1") { chances--; }
-                Console.Clear();
-                grafico.Exibicao(CampoUsuario);
+                grafico.ExibirCampo(campoUsuario); // Exibe o campo atual do usuário
 
+                // Solicita a posição para abrir
+                string abrir = SolicitarPosicao().ToLower();
+
+                // Verifica se a posição escolhida é válida
+                if (campoUsuario.ContainsKey(abrir))
+                {
+                    campoUsuario[abrir] = campoAberto[abrir];
+
+                    // Se for uma mina ("1"), perde uma chance
+                    if (campoUsuario[abrir] == "1")
+                    {
+                        chances--;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Posição inválida! Tente novamente.");
+                }
+
+                // Limpa a tela para a próxima iteração
+                Console.Clear();
             }
+
+            // Exibe o campo final quando o jogo termina
+            grafico.ExibirCampo(campoUsuario);
+            Console.WriteLine("\r\n──▄────▄▄▄▄▄▄▄────▄───\r\n─▀▀▄─▄█████████▄─▄▀▀──\r\n─────██─▀███▀─██──────\r\n───▄─▀████▀████▀─▄────\r\n─▀█────██▀█▀██────█▀──\r\n\r\n");
+
         }
-       
-        private string CampoAbrir()
+
+        private string SolicitarPosicao()
         {
-            Console.Write($"\n\nCaro soldado, qual mina deseja desativar?\nVocê tem {chances} chances\nR: ");
+            Console.WriteLine($"\nVocê tem {chances} chances restantes.");
+            Console.Write("Qual mina deseja desativar? (ex: a1): ");
             return Console.ReadLine();
         }
-        
     }
 }

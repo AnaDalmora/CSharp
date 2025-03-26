@@ -1,25 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CampoMinado
 {
-    public class Mina : Campo
+    public class Mina
     {
-        Random semente = new Random();
-        
-
-        public int[] gerarMina(int[] Minas)
+        private Random random = new Random();
+        private int[] minas = new int[100]; // Representa as minas
+        public int[] GerarMina()
         {
-            
-            for (int i = 0; i < Minas.Length; i++)
+            for (int i = 0; i < minas.Length; i++)
             {
-                Minas[i] = semente.Next(0, 2); 
+                minas[i] = random.Next(0, 2); // 0 = sem mina, 1 = com mina
             }
-            return Minas;
+            return minas;
         }
-
+       
     }
 }

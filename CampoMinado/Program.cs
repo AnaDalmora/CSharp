@@ -5,10 +5,7 @@
         static void Main(string[] args)
         {
             Operacao operacao = new Operacao();
-
-            //operacao.EstruturarJogo();
             operacao.IniciarJogo();
-
         }
     }
 }
