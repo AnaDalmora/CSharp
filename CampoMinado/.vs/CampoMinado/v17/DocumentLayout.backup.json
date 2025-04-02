@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anajl\\CSharp\\CampoMinado\\",
+  "WorkspaceRootPath": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\anajl\\csharp\\campominado\\grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\ana.dalmora\\csharp\\campominado\\grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|solutionrelative:grafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\anajl\\csharp\\campominado\\operacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\ana.dalmora\\csharp\\campominado\\operacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|solutionrelative:operacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\anajl\\csharp\\campominado\\campo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\ana.dalmora\\csharp\\campominado\\campo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|solutionrelative:campo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\anajl\\csharp\\campominado\\mina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|solutionrelative:mina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\ana.dalmora\\csharp\\campominado\\regras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|solutionrelative:regras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\anajl\\csharp\\campominado\\regras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|solutionrelative:regras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|c:\\users\\ana.dalmora\\csharp\\campominado\\mina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9F61A-B201-4E0B-9C80-CA73FF78BAE8}|CampoMinado.csproj|solutionrelative:mina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Regras.cs",
-              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Regras.cs",
-              "RelativeDocumentMoniker": "Regras.cs",
-              "ToolTip": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Regras.cs",
-              "RelativeToolTip": "Regras.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T21:45:42.389Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Grafico.cs",
-              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Grafico.cs",
-              "RelativeDocumentMoniker": "Grafico.cs",
-              "ToolTip": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Grafico.cs",
-              "RelativeToolTip": "Grafico.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Mina.cs",
+              "DocumentMoniker": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Mina.cs",
+              "RelativeDocumentMoniker": "Mina.cs",
+              "ToolTip": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Mina.cs",
+              "RelativeToolTip": "Mina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T00:15:53.71Z",
+              "WhenOpened": "2025-04-02T20:13:38.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Mina.cs",
-              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Mina.cs",
-              "RelativeDocumentMoniker": "Mina.cs",
-              "ToolTip": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Mina.cs",
-              "RelativeToolTip": "Mina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Title": "Regras.cs",
+              "DocumentMoniker": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Regras.cs",
+              "RelativeDocumentMoniker": "Regras.cs",
+              "ToolTip": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Regras.cs",
+              "RelativeToolTip": "Regras.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T00:02:25.693Z",
+              "WhenOpened": "2025-04-02T19:40:20.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Operacao.cs",
-              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Operacao.cs",
+              "DocumentMoniker": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Operacao.cs",
               "RelativeDocumentMoniker": "Operacao.cs",
-              "ToolTip": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Operacao.cs",
+              "ToolTip": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Operacao.cs",
               "RelativeToolTip": "Operacao.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwDMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T21:42:01.479Z",
+              "WhenOpened": "2025-04-02T19:21:57.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grafico.cs",
+              "DocumentMoniker": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Grafico.cs",
+              "RelativeDocumentMoniker": "Grafico.cs",
+              "ToolTip": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Grafico.cs*",
+              "RelativeToolTip": "Grafico.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T00:15:53.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Campo.cs",
-              "DocumentMoniker": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Campo.cs",
+              "DocumentMoniker": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Campo.cs",
               "RelativeDocumentMoniker": "Campo.cs",
-              "ToolTip": "C:\\Users\\anajl\\CSharp\\CampoMinado\\Campo.cs",
+              "ToolTip": "C:\\Users\\ana.dalmora\\CSharp\\CampoMinado\\Campo.cs",
               "RelativeToolTip": "Campo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T20:03:54.3Z",
               "EditorCaption": ""

@@ -1,56 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
+﻿    using System;
+    using System.Collections.Generic;
 
-namespace CampoMinado
-{
-    public class Campo
+    namespace CampoMinado
     {
-        private string[] colunas = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" };
-        private int[] linhas = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        private Dictionary<string, string> campoAberto = new Dictionary<string, string>(); // Onde as minas estão visíveis
-        private Dictionary<string, string> campoUsuario = new Dictionary<string, string>(); // Onde o campo não é visível
-
-        // Gera o campo com a distribuição das minas
-        public void GerarCampoAberto()
+        public class Campo : Mina
         {
-            Mina mina = new Mina();
-            int[] minas = mina.GerarMina(); // Gera as minas
+            public string[] colunas = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" };
+            public int[] linhas = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            public Dictionary<string, string> campoAberto = new Dictionary<string, string>(); // Onde as minas estão visíveis
+            public Dictionary<string, string> campoUsuario = new Dictionary<string, string>(); // Onde o campo não é visível
 
-            int a = 0;
-            foreach (string coluna in colunas)
+            // Gera o campo com a distribuição das minas
+            public void GerarCampos()
             {
-                foreach (int linha in linhas)
+                Mina mina = new Mina();
+                mina.GerarMina();
+                int index = 0;
+                foreach (var coluna in colunas)
                 {
-                    string chave = coluna + Convert.ToString(linha);
-                    campoAberto.Add(chave, Convert.ToString(minas[a]));
-                    a++;
+                    foreach (var linha in linhas)
+                    {
+                        campoAberto.Add($"{coluna}{linha}", mina.minas[index++].ToString());
+                        campoUsuario.Add($"{coluna}{linha}", "X");
+                    }
                 }
+            
             }
-        }
-
-        // Inicializa o campo do usuário com valores "X" para as posições
-        public void GerarCampoUsuario()
-        {
-            int a = 0;
-            foreach (string coluna in colunas)
-            {
-                foreach (int linha in linhas)
-                {
-                    string chave = coluna + Convert.ToString(linha);
-                    campoUsuario.Add(chave, "X");
-                    a++;
-                }
-            }
-        }
-
-        public Dictionary<string, string> ObterCampoAberto()
-        {
-            return campoAberto;
-        }
-
-        public Dictionary<string, string> ObterCampoUsuario()
-        {
-            return campoUsuario;
-        }
+           
+         }
     }
-}

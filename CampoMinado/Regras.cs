@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace CampoMinado
 {
-    internal class Regras : Campo
+    internal class Regras
     {
-        public void Vencedor() { }
+        public bool Vencedor(Dictionary<string, string> campoUsuario) {
+            if (campoUsuario.ContainsValue("X")) { return false; }
+            return true;
+        }
+        
     }
 }
