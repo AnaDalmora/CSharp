@@ -39,7 +39,7 @@ public class Operacao
         return campoUsuario;
     }
 
-    static void ExibirMensagemDeInicioDaRodada(int i)
+    private void ExibirMensagemDeInicioDaRodada(int i)
     {
         Console.WriteLine($"Jogador {i} irá iniciar a jogada");
         Thread.Sleep(3000);
