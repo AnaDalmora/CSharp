@@ -1,19 +1,10 @@
-﻿using System;
+﻿public class Mina { 
 
-namespace CampoMinado
-{
-    public class Mina
+    Random random = new Random();
+
+    public int GerarMina()
     {
-        private Random random = new Random();
-        public int[] minas = new int[100]; // Representa as minas
-        public void GerarMina()
-        {
-            for (int i = 0; i < minas.Length; i++)
-            {
-                minas[i] = random.Next(0, 2); // 0 = sem mina, 1 = com mina
-            }
-           // return minas;
-        }
-       
+        // 80% de aparecer 0 e 15% de aparecer 1. 0 = sem mina, 1 = mina
+        return random.NextDouble() < 0.15 ? 1 : 0;
     }
 }

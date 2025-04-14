@@ -1,36 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace CampoMinado
-{  
-    public class Grafico 
+﻿public class Grafico
+{
+    public void ExibirCampo(Campo campominado)
     {
-       
-        public void ExibirCampo(Dictionary<string, string> campoUsuario, int[] linhas,string[] colunas)
+        for (int i = 0; i < campominado.linhas; i++)
         {
-            // Exibe o cabeçalho das colunas
-            Console.Write("\t ");
-            foreach (int linha in linhas)
+            for (int j = 0; j < campominado.elementos; j++)
             {
-                // Alinha as colunas com 10 espaços de largura
-                Console.Write(linha.ToString().PadRight(10));
+                Console.Write(campominado.CampoMinado[i][j] + " ");
             }
-            Console.WriteLine("\n");
-
-           
-            foreach (string coluna in colunas)
-            {
-                Console.Write(coluna.PadRight(5) + "|   ");
-
-                for (int i = 1; i <= 10; i++)
-                {
-                    Console.Write(campoUsuario[$"{coluna}{i}"].PadRight(10));
-                }
-                Console.WriteLine("\n\n");
-              
-
-            }
+            Console.WriteLine(); // Quebra de linha após imprimir cada linha
         }
     }
 }

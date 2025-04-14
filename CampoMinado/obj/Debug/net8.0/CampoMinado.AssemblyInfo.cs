@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampoMinado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0d0ed96f11f6a0cb9394e42dc9ecb63b779325c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e17e42ceea41d63d104f60094690fd78f7273bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampoMinado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampoMinado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

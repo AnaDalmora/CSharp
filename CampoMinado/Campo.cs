@@ -1,31 +1,37 @@
-﻿    using System;
-    using System.Collections.Generic;
+﻿public class Campo
+{
+    // Define a quantidade de linhas (altura) do campo
+    private int _linhas = 13;
+    // Define a quantidade de elementos (colunas) por linha (largura do campo)
+    private int _elementos = 10;
+    // Matriz que representa o campo minado (0 = livre, 1 = mina)
+    private string[][] _campominado;
 
-    namespace CampoMinado
+    //acesso externo
+    public string[][] CampoMinado => _campominado;
+    public int linhas => _linhas;
+    public int elementos => _elementos;
+
+    public Campo()
     {
-        public class Campo : Mina
-        {
-            public string[] colunas = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" };
-            public int[] linhas = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            public Dictionary<string, string> campoAberto = new Dictionary<string, string>(); // Onde as minas estão visíveis
-            public Dictionary<string, string> campoUsuario = new Dictionary<string, string>(); // Onde o campo não é visível
-
-            // Gera o campo com a distribuição das minas
-            public void GerarCampos()
-            {
-                Mina mina = new Mina();
-                mina.GerarMina();
-                int index = 0;
-                foreach (var coluna in colunas)
-                {
-                    foreach (var linha in linhas)
-                    {
-                        campoAberto.Add($"{coluna}{linha}", mina.minas[index++].ToString());
-                        campoUsuario.Add($"{coluna}{linha}", "X");
-                    }
-                }
-            
-            }
-           
-         }
+        _campominado = new string[_linhas][];
     }
+
+    // Gera o campo minado preenchendo com minas (1) ou espaços livres (0)
+    public string[][] GerarCampo()
+    {
+        Mina mina = new Mina();
+
+        for (int i = 0; i < _linhas; i++)
+        {
+            string[] linha = new string[_elementos];
+
+            for (int j = 0; j < _elementos; j++)
+            {
+                linha[j] =  mina.GerarMina().ToString(); // 0 = livre, 1 = mina
+            }
+            _campominado[i] = linha;
+        }
+        return CampoMinado;
+    }
+}
