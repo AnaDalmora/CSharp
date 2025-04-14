@@ -2,10 +2,12 @@
 
 public class Operacao
 {
-    Campo sistema = new Campo();
-    Jogador jogador = new Jogador();
-    Campo campoUsuario = new Campo();
-
+    private Campo sistema = new Campo();
+    private Jogador jogador = new Jogador();
+    private Campo campoUsuario = new Campo();
+    private Tempo jogadorUm = new Tempo();
+    private Tempo jogadorDois = new Tempo();
+    
     public void IniciarJogo()
     {
         sistema.GerarCampo();
@@ -13,9 +15,7 @@ public class Operacao
     }
     private void Jogar()
     {
-        Tempo jogadorUm = new Tempo();
-        Tempo jogadorDois = new Tempo();
-
+        
         ExibirMensagemDeInicioDaRodada(1);
         jogador.JogarLoop(GerarCampoUsuario(), sistema, true, jogadorUm); // modo linha por linha
 
